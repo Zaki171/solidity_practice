@@ -1,0 +1,66 @@
+{
+	"compiler": {
+		"version": "0.8.25+commit.b61c2a91"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "deposit",
+				"outputs": [],
+				"stateMutability": "payable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "withdraw",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"attacker.sol": "iContract"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"attacker.sol": {
+			"keccak256": "0x764ff45bd57a7ad984fc178f99c5b7733926edb14c08781039cbaaec42a9204e",
+			"urls": [
+				"bzz-raw://0ac4e5c637c1a701c5954b02f75e311aae88f26b1462bc8c334ec17e09146841",
+				"dweb:/ipfs/QmVGwxELYhdqomvHuB7mWPNxr3MrEdq4d8vjpNSzkHQN7i"
+			]
+		},
+		"vulnerable_contract.sol": {
+			"keccak256": "0xdeddf7c1bbd2ea3797a652903a167e547314e15931fe20ddc2c0ea866342b1d5",
+			"urls": [
+				"bzz-raw://c65847440ecc7ad4be58d3eda9e65a7356a7076cc0f9a7fd43faa415171e3f62",
+				"dweb:/ipfs/QmbPcM3JixVxNSD66jvJ4pAPAyCHfotxoB4E8hJ2gEvaaz"
+			]
+		}
+	},
+	"version": 1
+}
